@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en"
+xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="utf-8" />
+    <title>LOGIN</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootswatch/4.5.2/cosmo/bootstrap.min.css" />
+    <script src= "https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" ></script>
+</head>
+<body style="background-color:gray;">
+<div align="center">
+    <h1>LOGIN</h1>
+    <br />
+     <div class="col-sm-4">
+    <form  action="/loginIn" method="post">
+ 
+      
+<div alight="left">
+            <tr>
+                <label class="form-label" >User Name</label>
+                <td>
+                <input type="text" id="username" name = "username" class="form-control" placeholder="User Name" />
+                </td>
+            </tr>
+         </div>     
+           <div alight="left">
+            <tr>
+                 <label class="form-label" >Password</label>
+                <td><input type="password" id = "password" name = "password"  class="form-control" placeholder="Password" /></td>
+            </tr>
+            </div>
+<br>
+            <tr>
+            <td colspan="2"><button type="submit" class="btn btn-info">登入</button> </td>
+            </tr>
+        </table>
+    </form>
+</div>
+</body>
+</html>
